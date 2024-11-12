@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(29, 25, 51);
+}
+
+.container {
+    height: 80vh;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1f 1f 1f;
+    grid-template-areas: 
+    "card card card";
+    margin: auto;
+    margin-top: 10vh;
+    gap: 1rem;
+}
+
+.card {
+    background-color: orange;
+}
+
