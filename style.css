@@ -12,15 +12,148 @@ body {
     height: 80vh;
     width: 85%;
     display: grid;
-    grid-template-columns: 1f 1f 1f;
-    grid-template-areas: 
-    "card card card";
     margin: auto;
     margin-top: 10vh;
-    gap: 1rem;
+    gap: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
-    background-color: orange;
+    background-color: rgb(255, 105, 59);
+    border-radius: 1.5rem;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.menu {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
 }
 
+.menu-bar-1,
+.menu-bar-2,
+.menu-bar-3 {
+    background-color: black;
+    justify-content: start;
+    margin: 0.5rem;
+    height: 0.3vh;
+}
+
+.menu-bar-1 {
+    width: 2rem;
+}
+
+.menu-bar-2 {
+    width: 1.75rem;
+}
+
+.menu-bar-3 {
+    width: 1.5rem;
+}
+
+.img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.main-img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    border: 5px solid white;
+    /* Esse código em específico serve para garantir que a imagem não fique distorcida */
+    object-fit: cover;    
+}
+
+.name {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5vh;
+    font-size: 1.75rem;
+    color: white;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+.position {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.1rem;
+    color: white;
+    font-family: poppins;
+    margin-top: 2vh;
+    font-weight: 0;
+}
+
+.social-media {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    margin-top: 2vh;
+}
+
+.facebook,
+.twitter {
+    width: 1.25rem;
+}
+
+.instagram {
+    width: 1.875rem;
+}
+
+.follow-and-learn {
+    background-color: white;
+    height: 30%;
+    border-radius: 1.5rem;
+    width: 100%;
+    margin-top: 2.4rem;
+}
+
+.follow {
+    background-color: white;
+    position: relative;
+    left: 30%;
+    bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 40%;
+    height: 7.5vh;
+    border-radius: 2rem;
+    box-shadow: 0px 4px 8px rgb(255, 105, 59);
+}
+
+.follow-text {
+    font-size: 1.5rem;
+    color: rgb(255, 105, 59);
+    font-family: poppins;
+}
+
+.learn-more {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: poppins;
+    font-size: 1.2rem;
+}
+
+.orange-arrow {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1.75rem;  
+}
+
+.arrow {
+    transform: rotate(90deg);
+    width: 2rem;
+}
